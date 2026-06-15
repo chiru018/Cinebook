@@ -1,4 +1,6 @@
 import { handle } from "hono/vercel";
-import app from "../server/boot";
+// @ts-ignore
+import app from "../dist/boot.js";
 
 export default handle(app);
+
