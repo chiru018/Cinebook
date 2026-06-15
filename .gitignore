@@ -1,14 +1,23 @@
-app/node_modules/
-app/dist/
-app/.env
-app/.env.*
-app/*.db
-app/*.sqlite
-app/*.sqlite3
-app/db/migrations/*.sql
-app/*.tsbuildinfo
-app/build/
-app/coverage/
-app/.nyc_output/
-app/*.log
+node_modules
+dist
 .DS_Store
+.env
+.env.local
+package-lock.json
+# Environment variables
+.env.*.local
+# Database
+*.db
+*.sqlite
+*.sqlite3
+db/migrations/*.sql
+# TypeScript cache
+*.tsbuildinfo
+# Build outputs
+dist/
+build/
+# Test coverage
+coverage/
+.nyc_output/
+# Logs
+*.log
