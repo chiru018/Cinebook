@@ -1,5 +1,5 @@
 // @ts-nocheck
-import { getDb } from "../api/queries/connection";
+import { getDb } from "../server/queries/connection";
 import { movies, theaters, shows } from "./schema";
 import { sql } from "drizzle-orm";
 
