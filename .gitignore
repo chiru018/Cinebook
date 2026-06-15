@@ -1,0 +1,14 @@
+app/node_modules/
+app/dist/
+app/.env
+app/.env.*
+app/*.db
+app/*.sqlite
+app/*.sqlite3
+app/db/migrations/*.sql
+app/*.tsbuildinfo
+app/build/
+app/coverage/
+app/.nyc_output/
+app/*.log
+.DS_Store
